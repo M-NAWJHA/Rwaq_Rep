@@ -1,0 +1,354 @@
+﻿/*body*/
+*{
+  margin: 0;
+  padding: 0;
+}
+::selection{
+  background: #198598;
+  color: #fff;
+}
+body{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  background: none;
+  font-family: 'Droid Arabic Kufi', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 8px !important;
+}
+body::-webkit-scrollbar-track {
+  background: #86c5d1 !important;
+}
+body::-webkit-scrollbar-thumb {
+  background: #198598 !important;
+}
+a,a:hover{
+  color:inherit;
+  text-decoration:none;
+}
+
+/*text_color*/
+.text-blue1{
+  color: #198598 !important;
+}
+.text-blue2{
+  color: #5aabbb !important;
+}
+.text-blue3{
+  color: #0f2143 !important;
+}
+.text-grey1{
+  color: #434949 !important;
+}
+.text-grey2{
+  color: #c5c6c6 !important;
+}
+
+/*background*/
+.bg-blue1{
+  background: #198598 !important;
+}
+.bg-blue2{
+  background: #5aabbb !important;
+}
+.bg-blue3{
+  background: #0f2143 !important;
+}
+.bg-grey1{
+  background: #434949 !important;
+}
+.bg-grey2{
+  background: #c5c6c6 !important;
+}
+
+/*border*/
+.bd-blue1{
+  border-color: #198598 !important;
+}
+.bd-blue2{
+  border-color: #5aabbb !important;
+}
+.bd-blue3{
+  border-color: #0f2143 !important;
+}
+.bd-blue4{
+  border-color: #306a81 !important;
+}
+.bd-grey1{
+  border-color: #434949 !important;
+}
+.bd-grey2{
+  border-color: #c5c6c6 !important;
+}
+
+/*hover*/
+.o-hover{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.o-hover:hover{
+  opacity:0.7;
+  transition: all 0.5s;
+}
+.o-hover1{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.o-hover1:hover{
+  margin-left: 10px;
+  opacity:0.7;
+  transition: all 0.5s;
+}
+.box-shadow-h{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.box-shadow-h:hover{
+  box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.19), 0 2px 20px 0 rgba(90, 89, 89, 0.19) !important; 
+  transition: all 0.5s;
+}
+
+/*btn*/
+.form-control:focus{
+  color: #198598;
+  border-color: #198598;
+  transition: all 0.5s;
+}
+.btn-blue1{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  border:#198598 solid 1px ;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #198598 !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-blue1:hover{
+  color: #5aabbb !important;
+  background-color:#fff !important;
+  border: dotted #5aabbb 1px !important ;
+  transition: all 0.5s;
+}
+.btn-white{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  color: #0f2143 !important;
+  background-color: #fff !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-white:hover{
+  color: #fff !important;
+  background-color:#5aabbb !important;
+  transition: all 0.5s;
+}
+.btn-white2{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  color: #0f2143 !important;
+  background-color: #fff !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-white2:hover{
+  color: #fff !important;
+  background-color:#434949 !important;
+  transition: all 0.5s;
+}
+.btn-icon2{
+  border: none;
+  color: #fff !important;
+  background: #0f2143 !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-icon2:hover{
+  color: #fff !important;
+  background: #198598 !important;
+  transition: all 0.5s;
+}
+.btn-check:focus + .btn, .btn:focus{
+  box-shadow: none !important;
+}
+.btn-focus{
+  color: #306a81 !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-focus:focus{
+  color: #0f2143 !important;
+  transition: all 0.5s;
+}
+/*.body*/
+
+/*header*/
+.bg-sl{
+  background: url(../img/bg-sl.png) no-repeat;
+  background-size: cover;
+  color: #198598;
+}
+.horizontalMenu-list > li > a{
+  color: #fff !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.horizontalMenu-list > li > a:hover{
+  color: #c5c6c6 !important;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 991px){
+  .horizontalMenu-list > li > a{
+    color: #198598 !important;
+    -moz-transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+  }
+  .horizontalMenu-list > li > a:hover{
+    color: #86c5d1 !important;
+    transition: all 0.5s;
+  }
+}
+.animated-arrow span {
+  background: #fff ;
+}
+.animated-arrow span:before{
+  background: #fff ;
+}
+.animated-arrow span::after{
+  background: #fff;
+}
+.sticky-pin{
+  background: #198598;
+  box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.19), 0 2px 20px 0 rgba(90, 89, 89, 0.19); 
+  width: 100% !important;
+  top:0px !important;
+  border-bottom: none !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.main-body.active.menu-open .horizontalMenucontainer .main-header.hor-header {
+  position: sticky;
+}
+/*.header*/
+
+/*contain*/
+.timeline-wrapper-primary .timeline-panel:before, .timeline-wrapper-primary .timeline-badge{
+  background: #198598 !important;
+}
+.timeline-wrapper-secondary .timeline-panel:before, .timeline-wrapper-secondary .timeline-badge{
+  background: #5aabbb !important;
+}
+.transform-90{
+  transform:rotate(-90deg);
+-ms-transform:rotate(-90deg); /* Internet Explorer */
+-moz-transform:rotate(-90deg); /* Firefox */
+-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+-o-transform:rotate(-90deg); /* Opera */
+}
+.page-item.active .page-link{
+  color: #fff;
+  border: 1px solid #41a5b7 !important;
+  background: #198598 !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.pagination .page-link:hover{
+  color: #fff;
+  border: 1px solid #198598 !important;
+  background: #198598 !important;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+.dropdown-item:focus{
+  background: #198598 !important;
+  color: #fff !important;
+}
+.panel-heading1 a.collapsed:before{
+  display: none;
+}
+.tabs-style-3 .nav.panel-tabs li a.active{
+  background: #198598 !important;
+}
+.wizard > .steps .current a .number, .wizard > .steps .current a:hover .number, .wizard > .steps .current a:active .number{
+  background-color: #198598 !important;
+}
+.wizard > .steps .current a {
+  color: #198598 !important;
+}
+.wizard > .actions a{
+  background-color: #198598 !important;
+}
+@media (max-width: 576px){
+  .vtimeline .timeline-wrapper .timeline-panel{
+    margin-right: 20% !important;
+  }
+}
+
+.tabs-style-2 .main-nav-line .nav-link.active{
+  color: #198598 !important;
+}
+.tabs-style-2 li .nav-link.active{
+  box-shadow: inset 0 3px 1px #198598 !important;  
+  color: #198598 !important;
+}
+/*.contain*/
+
+/*footer*/
+#back-to-top{
+  color: #fff !important;
+  background-color: #0f2143 !important;
+  border-radius: 40px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+#back-to-top:hover{
+  color: #fff !important;
+  background-color: #198598 !important;
+  transition: all 0.5s;
+}
+.whatsapp-fixed{
+  position: fixed;
+  z-index: 200;
+  bottom: 30px;
+  left: 30px;
+  background-color: #00e676;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.19), 0 2px 20px 0 rgba(90, 89, 89, 0.19);
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.whatsapp-fixed i{
+  line-height: 60px;
+  font-size: 30px;
+  color: #fff;
+}
+.whatsapp-fixed:hover{
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+/*.footer*/

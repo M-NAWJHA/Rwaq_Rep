@@ -1,0 +1,208 @@
+﻿/*body*/
+*{
+  margin: 0;
+  padding: 0;
+}
+::selection{
+  background: #198598;
+  color: #fff;
+}
+body{
+  background: none;
+  font-family: 'Droid Arabic Kufi', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #c5c6c6;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #434949;
+  border-radius: 10px;
+}
+a,a:hover{
+  color:inherit;
+  text-decoration:none;
+}
+
+/*text_color*/
+.text-blue1{
+  color: #198598 !important;
+}
+.text-blue2{
+  color: #5aabbb !important;
+}
+.text-blue3{
+  color: #0f2143 !important;
+}
+.text-grey1{
+  color: #434949 !important;
+}
+.text-grey2{
+  color: #c5c6c6 !important;
+}
+
+/*background*/
+.bg-blue1{
+  background: #198598 !important;
+}
+.bg-blue2{
+  background: #5aabbb !important;
+}
+.bg-blue3{
+  background: #0f2143 !important;
+}
+.bg-grey1{
+  background: #434949 !important;
+}
+.bg-grey2{
+  background: #c5c6c6 !important;
+}
+
+/*border*/
+.bd-blue1{
+  border-color: #198598 !important;
+}
+.bd-blue2{
+  border-color: #5aabbb !important;
+}
+.bd-blue3{
+  border-color: #0f2143 !important;
+}
+.bd-grey1{
+  border-color: #434949 !important;
+}
+.bd-grey2{
+  border-color: #c5c6c6 !important;
+}
+
+.o-hover{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.o-hover:hover{
+  opacity:0.7;
+  transition: all 0.5s;
+}
+.box-shadow-h{
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.box-shadow-h:hover{
+  box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.19), 0 2px 20px 0 rgba(90, 89, 89, 0.19) !important; 
+  transition: all 0.5s;
+} 
+
+.btn-focus{
+  color: #fff !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-focus:focus{
+  color: #F1E189 !important;
+  transition: all 0.5s;
+}
+.btn-blue1{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  border:#198598 solid 1px ;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #198598 !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-blue1:hover{
+  color: #5aabbb !important;
+  background-color:#fff !important;
+  border: dotted #5aabbb 1px !important ;
+  transition: all 0.5s;
+}
+.btn-icon1{
+  border: none;
+  color: #fff !important;
+  background: #B8DE6F !important;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-icon1:hover{
+  color: #fff !important;
+  background: #F39233 !important;
+  transition: all 0.5s;
+}
+
+.btn-green{
+  height: 50px;
+  width: 200px;
+  padding: 0 20px 0 20px;
+  border: none;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #B8DE6F !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-green:hover{
+  color: #B8DE6F !important;
+  background-color:#fff !important;
+  border:#B8DE6F solid 1px !important;
+  transition: all 0.5s;
+}
+.btn-blue{
+  height: 50px;
+  width: 200px;
+  padding: 0 20px 0 20px;
+  border: none;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #01C5C4 !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-blue:hover{
+  color: #01C5C4 !important;
+  background-color:#fff !important;
+  border:#01C5C4 solid 1px !important ;
+  transition: all 0.5s;
+} 
+.btn-orange{
+  height: 50px;
+  width: 200px;
+  padding: 0 20px 0 20px;
+  border: none;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #F39233 !important;
+  border-radius: 4px;
+  -moz-transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.btn-orange:hover{
+  color: #F39233 !important;
+  background-color:#fff !important;
+  border:#F39233 solid 1px !important;
+  transition: all 0.5s;
+}
+.btn-check:focus + .btn, .btn:focus{
+  box-shadow: none !important;
+}
+/*header*/ 
+
+
+
+
+
